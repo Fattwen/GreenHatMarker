@@ -1,0 +1,44 @@
+@keyframes greenHat {
+    0% { 
+        background: linear-gradient(to top, #ffffff, #ffffff, #00ff54);
+        background: -webkit-linear-gradient(to top, #ffffff, #ffffff, #00ff54); 
+    }
+    50% {
+        background: linear-gradient(to top, #00ff54, #ffffff, #ffffff);
+        background: -webkit-linear-gradient(to top, #00ff54, #ffffff, #ffffff); 
+    }
+    100% {
+        background: linear-gradient(to top, #ffffff, #00ff54,#ffffff);
+        background: -webkit-linear-gradient(to top, #ffffff, #00ff54,#ffffff); 
+    }
+}
+
+.garmin-liu{
+    background: linear-gradient(to top, #ffffff, #ffffff, #00ff54);
+    background: -webkit-linear-gradient(to top, #ffffff, #ffffff, #00ff54);
+    background-clip: text!important;
+    -webkit-background-clip: text!important;
+    color: transparent!important;
+    font-weight: 700;
+}
+
+.garmin-liu:hover{
+    animation: greenHat 0.5s ease infinite!important; 
+}
+
+.garmin-liu-input{
+    background: linear-gradient(to top, #ffffff, #ffffff, #00ff54)!important;
+    background: -webkit-linear-gradient(to top, #ffffff, #ffffff, #00ff54)!important;
+    background-clip: text!important;
+    -webkit-background-clip: text!important;
+    color: transparent!important;
+}
+
+/* .allmyfriendsaregay{
+    background: linear-gradient(to right, #ffffff, #ff0000, #ff9500, #fffb00, #2fff00, #00ffbf, #0004ff, #9500ff, #ff00d4);
+    background: -webkit-linear-gradient(to right, #ffffff, #ff0000, #ff9500, #fffb00, #2fff00, #00ffbf, #0004ff, #9500ff, #ff00d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+} */
+
